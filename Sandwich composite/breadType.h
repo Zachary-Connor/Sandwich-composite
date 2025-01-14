@@ -13,9 +13,12 @@ using namespace std;
 class breadType
 {
 public:
+	void setBread(string b);
+	string getBread() const;
+	void print() const;
 	breadType(string b = "Wheat");
 private:
-
+	string bread;
 };
 
 #endif
